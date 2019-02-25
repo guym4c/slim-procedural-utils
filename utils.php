@@ -1,3 +1,5 @@
+<?php
+
 const API_HEADERS = [];
 const API_BASE_URL = '';
 
