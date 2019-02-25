@@ -42,7 +42,7 @@ function performRequest(string $url, array $data, array $headers, string $method
  * @return array JSON response as an array
  */
 function requestAPI(string $uri, array $data) {
-    return json_decode(performRequest(API_BASE_URL . '$uri', $data, [API_HEADERS], 'GET'), true);
+    return json_decode(performRequest(API_BASE_URL . '$uri', $data, API_HEADERS, 'GET'), true);
 }
 
 /**
