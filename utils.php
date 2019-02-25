@@ -37,7 +37,7 @@ function performRequest(string $url, array $data, array $headers, string $method
 }
 
 /**
- * @param string $uri The Yummly API endpoint
+ * @param string $uri The API endpoint
  * @param array $data The GET query or POST request payload to send
  * @return array JSON response as an array
  */
